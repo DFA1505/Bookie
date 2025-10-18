@@ -13,7 +13,7 @@ import PopUp from './Components/PopUp/PopUp'
 
 const App = () => {
 
-  const [orderPopUp,setOrderPopUp] = useState(true)
+  const [orderPopUp,setOrderPopUp] = useState(false)
 
   const handleOrderPopUp = () =>{
     setOrderPopUp(!orderPopUp)
